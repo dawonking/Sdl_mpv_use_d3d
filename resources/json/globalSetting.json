@@ -1,0 +1,19 @@
+{
+    "globalSetting": {
+        "size": {
+            "width": 1440,
+            "height": 810
+        },
+        "font": {
+            "family": "PretendardVariable.ttr",
+            "weight": "Bold",
+            "size": 20
+        },
+        "linkFile": [
+            "topside",
+            "leftside",
+            "bottomside",
+            "rightside"
+        ]
+    }
+}

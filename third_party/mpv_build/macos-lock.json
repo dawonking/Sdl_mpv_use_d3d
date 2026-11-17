@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "architecture": "arm64",
+  "deployment_target": "14.0",
+  "mpv": {
+    "url": "https://github.com/mpv-player/mpv.git",
+    "commit": "b51131dff917fbccbedc62a8719bd976a05b5160",
+    "patch_sha256": "efdd210a512459d8dfce35f95c025a962dc879953d3cf1bd42f9dfaff558ec68"
+  },
+  "sdl3": {
+    "url": "https://github.com/libsdl-org/SDL.git",
+    "commit": "6243fa2ffd8de2cf310ec4851eb0d9faef83b2fa"
+  },
+  "version_policy": "installed: 도구·의존성 버전은 참고값이며 설치된 버전으로 빌드를 시도합니다.",
+  "reference_tools": {
+    "python": "3.9.0",
+    "cmake": "3.25.0",
+    "meson": "1.3.0",
+    "ninja": "1.10.0",
+    "pkg-config": "0.29.2",
+    "clang": "15.0.0",
+    "swiftc": "5.9.0"
+  },
+  "pkg_config_subdirs": [
+    "opt/ffmpeg/lib/pkgconfig",
+    "opt/libass/lib/pkgconfig",
+    "opt/libplacebo/lib/pkgconfig",
+    "opt/libarchive/lib/pkgconfig",
+    "opt/jpeg-turbo/lib/pkgconfig",
+    "opt/zlib/lib/pkgconfig",
+    "lib/pkgconfig",
+    "share/pkgconfig"
+  ],
+  "homebrew_formulas": {
+    "ffmpeg": {
+      "minimum": "6.1"
+    },
+    "libass": {
+      "minimum": "0.12.2"
+    },
+    "libplacebo": {
+      "minimum": "7.360.1"
+    },
+    "libarchive": {
+      "minimum": "3.4.0"
+    },
+    "jpeg-turbo": {
+      "minimum": "1.0.0"
+    },
+    "zlib": {
+      "minimum": "1.2.11"
+    }
+  },
+  "dependencies": {
+    "libavcodec": {
+      "upstream_minimum": "60.31.102",
+      "dylib": "libavcodec.dylib",
+      "brew_formula": "ffmpeg"
+    },
+    "libavfilter": {
+      "upstream_minimum": "9.12.100",
+      "dylib": "libavfilter.dylib",
+      "brew_formula": "ffmpeg"
+    },
+    "libavformat": {
+      "upstream_minimum": "60.16.100",
+      "dylib": "libavformat.dylib",
+      "brew_formula": "ffmpeg"
+    },
+    "libavutil": {
+      "upstream_minimum": "58.29.100",
+      "dylib": "libavutil.dylib",
+      "brew_formula": "ffmpeg"
+    },
+    "libswresample": {
+      "upstream_minimum": "4.12.100",
+      "dylib": "libswresample.dylib",
+      "brew_formula": "ffmpeg"
+    },
+    "libswscale": {
+      "upstream_minimum": "7.5.100",
+      "dylib": "libswscale.dylib",
+      "brew_formula": "ffmpeg"
+    },
+    "libass": {
+      "upstream_minimum": "0.12.2",
+      "dylib": "libass.dylib",
+      "brew_formula": "libass"
+    },
+    "libplacebo": {
+      "upstream_minimum": "7.360.1",
+      "dylib": "libplacebo.dylib",
+      "brew_formula": "libplacebo"
+    },
+    "libavdevice": {
+      "upstream_minimum": "60.3.100",
+      "dylib": "libavdevice.dylib",
+      "brew_formula": "ffmpeg"
+    },
+    "libarchive": {
+      "upstream_minimum": "3.4.0",
+      "dylib": "libarchive.dylib",
+      "brew_formula": "libarchive"
+    },
+    "libjpeg": {
+      "upstream_minimum": "1.0.0",
+      "dylib": "libjpeg.dylib",
+      "brew_formula": "jpeg-turbo"
+    },
+    "zlib": {
+      "upstream_minimum": "1.2.11",
+      "dylib": "libz.dylib",
+      "brew_formula": "zlib"
+    }
+  },
+  "meson_options": {
+    "buildtype": "debug",
+    "default_library": "shared",
+    "b_lto": false,
+    "b_ndebug": "false",
+    "gpl": false,
+    "cplayer": true,
+    "libmpv": true,
+    "build-date": true,
+    "tests": false,
+    "fuzzers": false,
+    "disable-packet-pool": false,
+    "cdda": "disabled",
+    "cplugins": "auto",
+    "dvbin": "disabled",
+    "dvdnav": "disabled",
+    "iconv": "enabled",
+    "javascript": "disabled",
+    "jpeg": "enabled",
+    "lcms2": "disabled",
+    "libarchive": "enabled",
+    "libavdevice": "enabled",
+    "libbluray": "disabled",
+    "lua": "disabled",
+    "pthread-debug": "disabled",
+    "rubberband": "disabled",
+    "sdl2-gamepad": "disabled",
+    "subrandr": "disabled",
+    "uchardet": "disabled",
+    "uwp": "disabled",
+    "vapoursynth": "disabled",
+    "vector": "auto",
+    "win32-threads": "disabled",
+    "x11-clipboard": "disabled",
+    "zimg": "disabled",
+    "zlib": "enabled",
+    "alsa": "disabled",
+    "audiounit": "disabled",
+    "coreaudio": "enabled",
+    "avfoundation": "enabled",
+    "jack": "disabled",
+    "openal": "disabled",
+    "audiotrack": "disabled",
+    "aaudio": "disabled",
+    "opensles": "disabled",
+    "oss-audio": "disabled",
+    "pipewire": "disabled",
+    "pulse": "disabled",
+    "sdl2-audio": "disabled",
+    "sndio": "disabled",
+    "wasapi": "disabled",
+    "amf": "disabled",
+    "caca": "disabled",
+    "cocoa": "enabled",
+    "d3d11": "disabled",
+    "direct3d": "disabled",
+    "dmabuf-wayland": "disabled",
+    "drm": "disabled",
+    "egl": "disabled",
+    "egl-android": "disabled",
+    "egl-angle": "disabled",
+    "egl-angle-lib": "disabled",
+    "egl-angle-win32": "disabled",
+    "egl-drm": "disabled",
+    "egl-wayland": "disabled",
+    "egl-x11": "disabled",
+    "gbm": "disabled",
+    "gl": "enabled",
+    "gl-cocoa": "enabled",
+    "gl-dxinterop": "disabled",
+    "gl-win32": "disabled",
+    "gl-x11": "disabled",
+    "sdl2-video": "disabled",
+    "shaderc": "disabled",
+    "sixel": "disabled",
+    "spirv-cross": "disabled",
+    "plain-gl": "enabled",
+    "vdpau": "disabled",
+    "vdpau-gl-x11": "disabled",
+    "vaapi": "disabled",
+    "vaapi-drm": "disabled",
+    "vaapi-wayland": "disabled",
+    "vaapi-win32": "disabled",
+    "vaapi-x11": "disabled",
+    "vulkan": "disabled",
+    "wayland": "disabled",
+    "x11": "disabled",
+    "xv": "disabled",
+    "android-media-ndk": "disabled",
+    "cuda-hwaccel": "disabled",
+    "cuda-interop": "disabled",
+    "d3d-hwaccel": "disabled",
+    "d3d9-hwaccel": "disabled",
+    "gl-dxinterop-d3d9": "disabled",
+    "ios-gl": "disabled",
+    "videotoolbox-gl": "enabled",
+    "videotoolbox-pl": "disabled",
+    "macos-10-15-4-features": "auto",
+    "macos-11-features": "auto",
+    "macos-11-3-features": "auto",
+    "macos-12-features": "auto",
+    "macos-cocoa-cb": "enabled",
+    "macos-media-player": "disabled",
+    "macos-touchbar": "disabled",
+    "macos-bundle-category": "video",
+    "swift-build": "enabled",
+    "win32-smtc": "disabled",
+    "html-build": "disabled",
+    "manpage-build": "disabled",
+    "pdf-build": "disabled"
+  },
+  "required_features": {
+    "HAVE_DARWIN": "1",
+    "HAVE_POSIX": "1",
+    "HAVE_DEBUG": "1",
+    "HAVE_FFMPEG": "1",
+    "HAVE_LIBASS": "1",
+    "HAVE_LIBPLACEBO": "1",
+    "HAVE_GL": "1",
+    "HAVE_GL_COCOA": "1",
+    "HAVE_COCOA": "1",
+    "HAVE_COREAUDIO": "1",
+    "HAVE_SWIFT": "1",
+    "HAVE_VIDEOTOOLBOX_GL": "1",
+    "HAVE_JPEG": "1",
+    "HAVE_LIBARCHIVE": "1",
+    "HAVE_LIBAVDEVICE": "1",
+    "HAVE_ZLIB": "1",
+    "HAVE_WIN32": "0",
+    "HAVE_D3D11": "0",
+    "HAVE_D3D_HWACCEL": "0",
+    "HAVE_GL_WIN32": "0",
+    "HAVE_GL_DXINTEROP": "0",
+    "HAVE_VAAPI": "0",
+    "HAVE_VULKAN": "0",
+    "HAVE_GPL": "0"
+  },
+  "sdl_cmake_options": {
+    "CMAKE_BUILD_TYPE": "Release",
+    "SDL_SHARED": "ON",
+    "SDL_STATIC": "OFF",
+    "SDL_FRAMEWORK": "OFF",
+    "SDL_COCOA": "ON",
+    "SDL_OPENGL": "ON",
+    "SDL_TEST_LIBRARY": "OFF",
+    "SDL_TESTS": "OFF",
+    "SDL_EXAMPLES": "OFF"
+  }
+}

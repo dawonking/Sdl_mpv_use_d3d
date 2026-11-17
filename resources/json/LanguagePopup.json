@@ -1,0 +1,239 @@
+﻿{
+  "LanguagePopup": {
+    "objName": "LanguagePopup",
+    "type": "popup",
+    "position": {
+      "x": 502,
+      "y": 241
+    },
+    "size": {
+      "width": 384,
+      "height": 202
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "pos": "Expanding",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "color": {
+      "Normal": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "dock": "None",
+    "dockOrder": 0,
+    "LayoutMod": "Vertical",
+    "Align": "None",
+    "inspace": 20,
+    "grouplist": [
+      "Lan_topGroup",
+      "Lan_CenterGroup",
+      "Lan_BottomGroup"
+    ]
+  },
+  "Lan_topGroup": {
+    "objName": "Lan_topGroup",
+    "type": "group",
+    "margin": {
+      "left": 10,
+      "top": 10,
+      "right": 10,
+      "bottom": 10
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "Align": "Center",
+    "inspace": 10,
+    "grouplist": [
+      "Lan_titleText",
+      "Lan_CloseBtn"
+    ]
+  },
+  "Lan_titleText": {
+    "objName": "Lan_titleText",
+    "type": "Text",
+    "size": {
+      "width": 300,
+      "height": 50
+    },
+    "Align": "Left",
+    "text": "언어 선택"
+  },
+  "Lan_CloseBtn": {
+    "objName": "Lan_CloseBtn",
+    "type": "imgBtn",
+    "size": {
+      "width": 42,
+      "height": 42
+    },
+    "Align": "Right",
+    "image": "CloseIcon.png",
+    "eventimages": {
+      "normalImg": "CloseIcon.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "Lan_CenterGroup": {
+    "objName": "Lan_CenterGroup",
+    "type": "group",
+    "margin": {
+      "left": 10,
+      "top": 0,
+      "right": 10,
+      "bottom": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "Align": "Center",
+    "inspace": 0,
+    "grouplist": [
+      "Lan_ComboBox"
+    ]
+  },
+  "Lan_ComboBox": {
+    "objName": "Lan_ComboBox",
+    "type": "ClickBtn",
+    "size": {
+      "width": 214,
+      "height": 39
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "text": "한국어",
+    "color": {
+      "Normal": {
+        "r": 0.29,
+        "g": 0.29,
+        "b": 0.29,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "Align": "Left"
+  },
+  "Lan_BottomGroup": {
+    "objName": "Lan_BottomGroup",
+    "type": "group",
+    "margin": {
+      "w": 0,
+      "h": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "Align": "Right",
+    "inspace": 5,
+    "grouplist": [
+      "Lan_ConfigBtn",
+      "Lan_CancleBtn"
+    ]
+  },
+  "Lan_ConfigBtn": {
+    "objName": "Lan_ConfigBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 84,
+      "height": 40
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "확인",
+    "color": {
+      "Normal": {
+        "r": 0.29,
+        "g": 0.29,
+        "b": 0.29,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "Align": "Right"
+  },
+  "Lan_CancleBtn": {
+    "objName": "Lan_CancleBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 84,
+      "height": 40
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "닫기",
+    "color": {
+      "Normal": {
+        "r": 0.29,
+        "g": 0.29,
+        "b": 0.29,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "Align": "Right"
+  }
+
+}

@@ -1,0 +1,499 @@
+{
+  "LeftArea": {
+    "objName": "LeftArea",
+    "type": "Pannel",
+    "position": {
+      "x": 0,
+      "y": 43
+    },
+    "size": {
+      "width": 147,
+      "height": 765
+    },
+    "margin": {
+      "left": 1.5,
+      "top": 1.5,
+      "right": 1.5,
+      "bottom": 1.5
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Expanding"
+    },
+    "color": {
+      "Normal": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "dock": "Left",
+    "dockOrder": 10,
+    "LayoutMod": "Vertical",
+    "Align": "None",
+    "inspace": 3,
+    "grouplist": [
+      "SubGroup",
+      "SignalGroup"
+    ]
+  },
+  "SubArea1": {
+    "objName": "SubArea1",
+    "type": "ClickBtn",
+    "text": "###SubArea1",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 130,
+      "height": 70
+    },
+    "color": {
+      "Normal": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      }
+    },
+    "btnType": "DragType"
+  },
+  "SubArea2": {
+    "objName": "SubArea2",
+    "type": "ClickBtn",
+    "text": "###SubArea2",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 130,
+      "height": 70
+    },
+    "color": {
+      "Normal": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      }
+    },
+    "btnType": "DragType"
+  },
+  "SubArea3": {
+    "objName": "SubArea3",
+    "type": "ClickBtn",
+    "text": "###SubArea3",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 130,
+      "height": 70
+    },
+    "color": {
+      "Normal": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      }
+    },
+    "btnType": "DragType"
+  },
+  "SubArea4": {
+    "objName": "SubArea4",
+    "type": "ClickBtn",
+    "text": "###SubArea4",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 130,
+      "height": 70
+    },
+    "color": {
+      "Normal": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      }
+    },
+    "btnType": "DragType"
+  },
+  "SubArea5": {
+    "objName": "SubArea5",
+    "type": "ClickBtn",
+    "text": "###SubArea5",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 130,
+      "height": 70
+    },
+    "color": {
+      "Normal": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.27,
+        "g": 0.58,
+        "b": 0.65,
+        "a": 1.0
+      }
+    },
+    "btnType": "DragType"
+  },
+  "SignalLeftImg": {
+    "objName": "SignalLeftImg",
+    "type": "img",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 0,
+      "height": 0
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "images": [
+      "Left_Off_Signal.png",
+      "Left_On_Signal.png"
+    ]
+  },
+  "SignalRightImg": {
+    "objName": "SignalRightImg",
+    "type": "img",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 0,
+      "height": 0
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "images": [
+      "Right_Off_Signal.png",
+      "Right_On_Signal.png"
+    ]
+  },
+  "SignalCarImg": {
+    "objName": "SignalCarImg",
+    "type": "img",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 0,
+      "height": 0
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "images": [
+      "Non_Car.png",
+      "Both_Car.png",
+      "Left_Car.png",
+      "Right_Car.png"
+    ]
+  },
+  "SignalRearImg": {
+    "objName": "SignalRearImg",
+    "type": "img",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 0,
+      "height": 0
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "images": [
+      "Rear_Off_Signal.png",
+      "Rear_On_Signal.png"
+    ]
+  },
+  "SignalBrakeImg": {
+    "objName": "SignalBrakeImg",
+    "type": "img",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 0,
+      "height": 0
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "images": [
+      "Brake_Off_Signal.png",
+      "Brake_On_Signal.png"
+    ]
+  },
+  "SubGroup": {
+    "objName": "SubGroup",
+    "type": "group",
+    "margin": {
+      "left": 8,
+      "top": 8,
+      "right": 8,
+      "bottom": -1
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Expanding"
+    },
+    "color": {
+      "Normal": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "LayoutMod": "Vertical",
+    "Align": "Left",
+    "inspace": 8,
+    "grouplist": [
+      "SubArea1",
+      "SubArea2",
+      "SubArea3",
+      "SubArea4",
+      "SubArea5"
+    ]
+  },
+  "SignalGroup": {
+    "objName": "SignalGroup",
+    "type": "group",
+    "size": {
+      "width": 146,
+      "height": 246
+    },
+    "margin": {
+      "left": 10,
+      "top": 20,
+      "right": 10,
+      "bottom": 20
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Vertical",
+    "Align": "Center",
+    "inspace": 4,
+    "color": {
+      "Normal": {
+        "r": 0.12,
+        "g": 0.12,
+        "b": 0.12,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "grouplist": [
+      "SignalArrowGroup",
+      "SignalCarGroup",
+      "SignalFuncGroup"
+    ]
+  },
+  "SignalArrowGroup": {
+    "objName": "SignalArrowGroup",
+    "type": "group",
+    "size": {
+      "width": 112,
+      "height": 47
+    },
+    "margin": {
+      "w": 0,
+      "h": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "Align": "Center",
+    "inspace": 0,
+    "color": {
+      "Normal": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "grouplist": [
+      "SignalLeftImg",
+      "SignalRightImg"
+    ]
+  },
+  "SignalCarGroup": {
+    "objName": "SignalCarGroup",
+    "type": "group",
+    "size": {
+      "width": 43,
+      "height": 106
+    },
+    "margin": {
+      "w": 0,
+      "h": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Vertical",
+    "Align": "Center",
+    "inspace": 0,
+    "color": {
+      "Normal": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "grouplist": [
+      "SignalCarImg"
+    ]
+  },
+  "SignalFuncGroup": {
+    "objName": "SignalFuncGroup",
+    "type": "group",
+    "size": {
+      "width": 112,
+      "height": 47
+    },
+    "margin": {
+      "w": 0,
+      "h": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "Align": "Center",
+    "inspace": 0,
+    "color": {
+      "Normal": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "grouplist": [
+      "SignalRearImg",
+      "SignalBrakeImg"
+    ]
+  }
+}

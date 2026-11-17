@@ -1,0 +1,513 @@
+﻿{
+  "rightArea": {
+    "objName": "rightArea",
+    "type": "Pannel",
+    "position": {
+      "x": 979,
+      "y": 43
+    },
+    "size": {
+      "width": 469,
+      "height": 767
+    },
+    "margin": {
+      "left": 5,
+      "top": 5,
+      "right": 5,
+      "bottom": 5
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Expanding"
+    },
+    "color": {
+      "Normal": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "dock": "Right",
+    "dockOrder": 20,
+    "LayoutMod": "Vertical",
+    "inspace": 3,
+    "grouplist": [
+      "loadBtnArea",
+      "listFilterArea",
+      "fileListArea",
+      "listOptArea",
+      "MapArea"
+    ]
+  },
+  "loadBtnArea": {
+    "objName": "loadBtnArea",
+    "type": "group",
+    "margin": {
+      "left": 10,
+      "top": 10,
+      "right": 10,
+      "bottom": 10
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+	"Align":"Center",
+    "inspace": 10,
+    "grouplist": [
+      "SDCardOpenBtn",
+      "LocalOpenBtn"
+    ]
+  },
+  "listFilterArea": {
+    "objName": "listFilterArea",
+    "type": "group",
+    "margin": {
+      "left": 10,
+      "top": 10,
+      "right": 10,
+      "bottom": 10
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+	"Align":"Center",
+    "inspace": 10,
+    "grouplist": [
+      "IFilterBtn",
+      "PFilterBtn",
+      "EFilterBtn",
+      "UFilterBtn"
+    ]
+  },
+  "fileListArea": {
+    "objName": "fileListArea",
+    "type": "group",
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Expanding"
+    },
+    "LayoutMod": "Vertical",
+    "inspace": 0,
+    "grouplist": [
+      "customFileList"
+    ]
+  },
+  "listOptArea": {
+    "objName": "listOptArea",
+    "type": "group",
+    "margin": {
+      "left": 10,
+      "top": 10,
+      "right": 10,
+      "bottom": 10
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "inspace": 80,
+	"Align":"Center",
+    "grouplist": [
+      "listSaveBtn",
+      "listDeleteBtn"
+    ]
+  },
+  "MapArea": {
+    "objName": "MapArea",
+    "type": "group",
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Vertical",
+    "inspace": 0,
+    "grouplist": [
+      "MapWidget"
+    ]
+  },
+  "SDCardOpenBtn": {
+    "objName": "SDCardOpenBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 214,
+      "height": 39
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "SD열기",
+    "color": {
+      "Normal": {
+        "r": 0.29,
+        "g": 0.29,
+        "b": 0.29,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "Align": "Left"
+  },
+  "LocalOpenBtn": {
+    "objName": "LocalOpenBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 214,
+      "height": 39
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "파일추가",
+    "color": {
+      "Normal": {
+        "r": 0.29,
+        "g": 0.29,
+        "b": 0.29,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "Align": "Left"
+  },
+  "IFilterBtn": {
+    "objName": "IFilterBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 102,
+      "height": 27
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "상시",
+    "color": {
+      "Normal": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.054,
+        "g": 0.054,
+        "b": 0.054,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      }
+    },
+    "btnType": "Toggle",
+    "Align": "Left"
+  },
+  "PFilterBtn": {
+    "objName": "PFilterBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 102,
+      "height": 27
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "주차",
+    "color": {
+      "Normal": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.054,
+        "g": 0.054,
+        "b": 0.054,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      }
+    },
+    "btnType": "Toggle",
+    "Align": "Left"
+  },
+  "EFilterBtn": {
+    "objName": "EFilterBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 102,
+      "height": 27
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "이벤트",
+    "color": {
+      "Normal": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.054,
+        "g": 0.054,
+        "b": 0.054,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      }
+    },
+    "btnType": "Toggle",
+    "Align": "Left"
+  },
+  "UFilterBtn": {
+    "objName": "UFilterBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 102,
+      "height": 27
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "사용자",
+    "color": {
+      "Normal": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.054,
+        "g": 0.054,
+        "b": 0.054,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      }
+    },
+    "btnType": "Toggle",
+    "Align": "Left"
+  },
+  "customFileList": {
+    "objName": "customFileList",
+    "type": "filelist",
+    "size": {
+      "width": 458,
+      "height": 349
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Expanding"
+    },    
+    "color": {
+      "Normal": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.054,
+        "g": 0.054,
+        "b": 0.054,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      }
+    },
+    "Align": "Left"
+  },
+  "listSaveBtn": {
+    "objName": "listSaveBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 139.33,
+      "height": 33
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "파일 저장",
+    "color": {
+      "Normal": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "Align": "Left"
+  },
+  "listDeleteBtn": {
+    "objName": "listDeleteBtn",
+    "type": "ClickBtn",
+    "size": {
+      "width": 139.33,
+      "height": 33
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "리스트 삭제",
+    "color": {
+      "Normal": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.11,
+        "g": 0.52,
+        "b": 1.0,
+        "a": 1.0
+      }
+    },
+    "Align": "Left"
+  },
+  "MapWidget": {
+    "objName": "MapWidget",
+    "type": "ClickBtn",
+    "size": {
+      "width": 458,
+      "height": 247
+    },
+    "margin": {
+      "left": 8,
+      "top": 8,
+      "right": 8,
+      "bottom": 8
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "text": "지도",
+    "color": {
+      "Normal": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      },
+      "Select": {
+        "r": 0.054,
+        "g": 0.054,
+        "b": 0.054,
+        "a": 1.0
+      },
+      "Hover": {
+        "r": 0.18,
+        "g": 0.18,
+        "b": 0.18,
+        "a": 1.0
+      }
+    },
+    "Align": "Left"
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "topbar": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 68,
+      "height": 20
+    },
+    "minimum": {
+      "width": 68,
+      "height": 20
+    },
+    "maximum": {
+      "width": 68,
+      "height": 20
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 13
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "Center": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 1440,
+      "height": 43
+    },
+    "minimum": {
+      "width": 1440,
+      "height": 39
+    },
+    "maximum": {
+      "width": -1,
+      "height": 48
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 13
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "LogoImg": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 118,
+      "height": 43
+    },
+    "minimum": {
+      "width": 110,
+      "height": 30
+    },
+    "maximum": {
+      "width": 120,
+      "height": 50
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 13
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "Viewer_logo.png",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "LanguageBtn": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 66,
+      "height": 33
+    },
+    "minimum": {
+      "width": 60,
+      "height": 30
+    },
+    "maximum": {
+      "width": 70,
+      "height": 35
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 19
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "Language_icon.png",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "PrintBtn": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 66,
+      "height": 33
+    },
+    "minimum": {
+      "width": 60,
+      "height": 30
+    },
+    "maximum": {
+      "width": 70,
+      "height": 35
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 19
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "print_icon.png",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "SettingBtn": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 66,
+      "height": 33
+    },
+    "minimum": {
+      "width": 60,
+      "height": 30
+    },
+    "maximum": {
+      "width": 70,
+      "height": 35
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 19
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "Setting_icon.png",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "InfoBtn": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 66,
+      "height": 33
+    },
+    "minimum": {
+      "width": 60,
+      "height": 30
+    },
+    "maximum": {
+      "width": 70,
+      "height": 35
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 19
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "info_icon.png",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "FileNameText": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 821,
+      "height": 33
+    },
+    "minimum": {
+      "width": 800,
+      "height": 30
+    },
+    "maximum": {
+      "width": 821,
+      "height": 35
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 13
+    },
+    "color": {
+      "Default": "#B0B0B0",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "MaximumBtn": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 26,
+      "height": 26
+    },
+    "minimum": {
+      "width": 26,
+      "height": 26
+    },
+    "maximum": {
+      "width": 26,
+      "height": 26
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 13
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "MaxViewIcon.png",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "FullScreenBtn": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 26,
+      "height": 26
+    },
+    "minimum": {
+      "width": 26,
+      "height": 26
+    },
+    "maximum": {
+      "width": 26,
+      "height": 26
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 13
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "FullScreenIcon.png",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "MinBtn": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 26,
+      "height": 26
+    },
+    "minimum": {
+      "width": 26,
+      "height": 26
+    },
+    "maximum": {
+      "width": 26,
+      "height": 26
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 13
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "HideIcon.png",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  },
+  "CloseBtn": {
+    "enable": true,
+    "show": true,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 26,
+      "height": 26
+    },
+    "minimum": {
+      "width": 26,
+      "height": 26
+    },
+    "maximum": {
+      "width": 26,
+      "height": 26
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "x": "Fixed",
+      "y": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "font": {
+      "family": "Noto Sans CJK KR",
+      "weight": "Bold",
+      "size": 13
+    },
+    "color": {
+      "Default": "rgba(255,255,255,255)",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "image": {
+      "Default": "CloseIcon.png",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    },
+    "border": {
+      "Default": "",
+      "Normal": "",
+      "Select": "",
+      "Hover": "",
+      "Disable": ""
+    }
+  }
+}

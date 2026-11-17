@@ -1,0 +1,51 @@
+# Generated builds and machine-specific CMake configuration
+/build/
+/out/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeUserPresets.json
+compile_commands.json
+
+# Local dependencies; keep third-party source code in Git
+/third_party/bin/
+/third_party/prebuilt/
+
+# Editors and OS metadata
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+# LegacyCode/
+
+# Compiled artifacts and runtime settings
+*.obj
+*.o
+*.exe
+*.dll
+*.lib
+*.a
+*.so
+*.so.*
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.dSYM/
+imgui.ini
+
+# Generated dependency sources and bootstrap builds
+/third_party/mpv/
+/third_party/SDL/
+/third_party/mpv_build/build/
+__pycache__/
+/Output/
+
+# Keep vendored WebView2 SDK binaries in source control
+!/third_party/WebView2/**/*.dll
+!/third_party/WebView2/**/*.lib

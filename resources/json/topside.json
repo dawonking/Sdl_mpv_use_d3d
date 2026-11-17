@@ -1,0 +1,292 @@
+{
+  "topbar": {
+    "objName": "topbar",
+    "type": "Pannel",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 1440,
+      "height": 43
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "color": {
+      "Normal": {
+        "r": 0.0,
+        "g": 0.0,
+        "b": 0.0,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "dock": "Top",
+    "dockOrder": 0,
+    "LayoutMod": "Horizontal",
+    "Align": "None",
+    "inspace": 0,
+    "grouplist": [
+      "LeftGroup",
+      "CenterGroup",
+      "RightGroup"
+    ]
+  },
+  "LogoImg": {
+    "objName": "LogoImg",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 118,
+      "height": 43
+    },
+    "margin": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "image": "Logo.png",
+    "eventimages": {
+      "normalImg": "Logo.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "LanguageBtn": {
+    "objName": "LanguageBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 42,
+      "height": 42
+    },
+    "image": "Language_icon.png",
+    "eventimages": {
+      "normalImg": "Language_icon.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "PrintBtn": {
+    "objName": "PrintBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 42,
+      "height": 42
+    },
+    "image": "print_icon.png",
+    "eventimages": {
+      "normalImg": "print_icon.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "SettingBtn": {
+    "objName": "SettingBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 42,
+      "height": 42
+    },
+    "image": "Setting_icon.png",
+    "eventimages": {
+      "normalImg": "Setting_icon.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "InfoBtn": {
+    "objName": "InfoBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 42,
+      "height": 42
+    },
+    "image": "info_icon.png",
+    "eventimages": {
+      "normalImg": "info_icon.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "FileNameText": {
+    "objName": "FileNameText",
+    "type": "Text",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 821,
+      "height": 33
+    },
+    "Align": "Center",
+    "text": ""
+  },
+  "MaximumBtn": {
+    "objName": "MaximumBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 42,
+      "height": 42
+    },
+    "image": "MaxViewIcon.png",
+    "eventimages": {
+      "normalImg": "MaxViewIcon.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "FullScreenBtn": {
+    "objName": "FullScreenBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 42,
+      "height": 42
+    },
+    "image": "FullScreenIcon.png",
+    "eventimages": {
+      "normalImg": "FullScreenIcon.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "MinBtn": {
+    "objName": "MinBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 42,
+      "height": 42
+    },
+    "image": "HideIcon.png",
+    "eventimages": {
+      "normalImg": "HideIcon.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "CloseBtn": {
+    "objName": "CloseBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 42,
+      "height": 42
+    },
+    "image": "CloseIcon.png",
+    "eventimages": {
+      "normalImg": "CloseIcon.png",
+      "hoverImg": "",
+      "clickImg": ""
+    }
+  },
+  "LeftGroup": {
+    "objName": "LeftGroup",
+    "type": "group",
+    "margin": {
+      "w": 0,
+      "h": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "Align": "Left",
+    "inspace": 20,
+    "grouplist": [
+      "LogoImg",
+      "LanguageBtn",
+      "PrintBtn",
+      "SettingBtn",
+      "InfoBtn"
+    ]
+  },
+  "CenterGroup": {
+    "objName": "CenterGroup",
+    "type": "group",
+    "margin": {
+      "w": 0,
+      "h": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "Align": "Center",
+    "inspace": 0,
+    "grouplist": [
+      "FileNameText"      
+    ]
+  },
+  "RightGroup": {
+    "objName": "RightGroup",
+    "type": "group",
+    "margin": {
+      "w": 0,
+      "h": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Fixed",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "Align": "Right",
+    "inspace": 5,
+    "grouplist": [
+      "MaximumBtn",
+      "FullScreenBtn",
+      "MinBtn",
+      "CloseBtn"
+    ]
+  }
+
+}

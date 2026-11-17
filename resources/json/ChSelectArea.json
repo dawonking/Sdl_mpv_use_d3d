@@ -1,0 +1,133 @@
+{
+  "ChSelectArea": {
+    "objName": "ChSelectArea",
+    "type": "Pannel",
+    "size": {
+      "width": 0,
+      "height": 43
+    },
+    "margin": {
+      "left": 0,
+      "top": 5,
+      "right": 0,
+      "bottom": 5
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "color": {
+      "Normal": {
+        "r": 0.1137,
+        "g": 0.1137,
+        "b": 0.1137,
+        "a": 1.0
+      },
+      "Select": {},
+      "Hover": {}
+    },
+    "dock": "Top",
+    "dockOrder": 25,
+    "LayoutMod": "Horizontal",
+    "Align": "Center",
+    "inspace": 0,
+    "grouplist": [
+      "ChSelectGroup"
+    ]
+  },
+  "ChSelectGroup": {
+    "objName": "ChSelectGroup",
+    "type": "group",
+    "margin": {
+      "w": 0,
+      "h": 0
+    },
+    "scale": {
+      "pos": "Fixed",
+      "width": "Expanding",
+      "height": "Fixed"
+    },
+    "LayoutMod": "Horizontal",
+    "Align": "Center",
+    "inspace": 14,
+    "grouplist": [
+      "OneChBtn",
+      "TwoChBtn",
+      "FourChBtn",
+      "SixChBtn"
+    ]
+  },
+  "OneChBtn": {
+    "objName": "OneChBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 85,
+      "height": 40
+    },
+    "btnType": "Toggle",
+    "eventimages": {
+      "normalImg": "OneChBtn.png",
+      "hoverImg": "",
+      "clickImg": "OneChBtn_Check.png"
+    }
+  },
+  "TwoChBtn": {
+    "objName": "TwoChBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 85,
+      "height": 40
+    },
+    "btnType": "Toggle",
+    "eventimages": {
+      "normalImg": "TwoChBtn.png",
+      "hoverImg": "",
+      "clickImg": "TwoChBtn_Check.png"
+    }
+  },
+  "FourChBtn": {
+    "objName": "FourChBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 85,
+      "height": 40
+    },
+    "btnType": "Toggle",
+    "eventimages": {
+      "normalImg": "FourChBtn.png",
+      "hoverImg": "",
+      "clickImg": "FourChBtn_Check.png"
+    }
+  },
+  "SixChBtn": {
+    "objName": "SixChBtn",
+    "type": "imgBtn",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "size": {
+      "width": 85,
+      "height": 40
+    },
+    "btnType": "Toggle",
+    "eventimages": {
+      "normalImg": "SixChBtn.png",
+      "hoverImg": "",
+      "clickImg": "SixChBtn_Check.png"
+    }
+  }
+}
