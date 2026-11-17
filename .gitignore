@@ -12,6 +12,7 @@ compile_commands.json
 /third_party/prebuilt/
 
 # Editors and OS metadata
+/.codex/
 .vs/
 .vscode/
 .idea/
